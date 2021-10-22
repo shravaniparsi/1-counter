@@ -1,0 +1,41 @@
+.counter {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.counter-heading {
+  text-align: center;
+  margin-bottom: 0px;
+  font-family: cursive;
+  font-size: 4rem;
+  letter-spacing: 4px;
+}
+
+.counter-value {
+  text-align: center;
+  margin-top: 0px;
+  font-size: 2rem;
+}
+
+.buttons-group {
+  text-align: center;
+}
+
+button{
+margin: 0 10px;
+padding: 10px 10px;
+background-color: chocolate;
+border: 2px solid black;
+cursor: pointer;
+border-radius: 6px;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: darkgray;
+}
